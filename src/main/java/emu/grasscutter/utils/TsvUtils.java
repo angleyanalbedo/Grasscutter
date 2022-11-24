@@ -251,7 +251,7 @@ public class TsvUtils {
 
         public JsonElement toJson() {
             // Determine if this is an object, an array, or a value
-            if (this.value != null) {  // 
+            if (this.value != null) {  //
                 return new JsonPrimitive(this.value);
             }
             if (!this.arrayChildren.isEmpty()) {
